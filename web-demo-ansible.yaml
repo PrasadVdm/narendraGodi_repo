@@ -15,7 +15,7 @@
         dest: /opt/
         remote_src: yes
     - name: Run Tomcat startup script
-      command: nohup /opt/apachetomcat/bin/startup.sh
+      command: nohup /opt/apache-tomcat-9.0.68/bin/startup.sh
     - name: Download Artifact
       get_url:
         url: http://34.93.60.168:8081/service/rest/v1/search/assets/download?sort=version&direction=desc&maven.groupId=com.web_demo&maven.artifactId=web_demo&maven.extension=war
