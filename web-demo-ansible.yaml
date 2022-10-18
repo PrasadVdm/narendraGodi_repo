@@ -19,4 +19,4 @@
     - name: Download Artifact
       get_url:
         url: http://34.93.60.168:8081/service/rest/v1/search/assets/download?sort=version&direction=desc&maven.groupId=com.web_demo&maven.artifactId=web_demo&maven.extension=war
-        dest: /opt/apachetomcat/webapps/web-demo.war
+        dest: /opt/apache-tomcat-9.0.68/webapps/web-demo.war
