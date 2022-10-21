@@ -22,7 +22,7 @@
         <distributionManagement>
   <repository>
   <id>web_demo</id>
-  <url>http://34.93.60.168:8081/repository/web_demo/</url>
+  <url>http://XXX.XXX.XXX.XXX:8081/repository/web_demo/</url>
   </repository>
     </distributionManagement>
 </project>
